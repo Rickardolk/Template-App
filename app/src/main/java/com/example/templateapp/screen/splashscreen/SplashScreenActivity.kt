@@ -1,4 +1,4 @@
-package com.example.templateapp
+package com.example.templateapp.screen.splashscreen
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity

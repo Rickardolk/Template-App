@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "124477567688",
+    "firebase_url": "https://latihan-8ebf9-default-rtdb.firebaseio.com",
+    "project_id": "latihan-8ebf9",
+    "storage_bucket": "latihan-8ebf9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:124477567688:android:960c99383e80516dcd6bfd",
+        "android_client_info": {
+          "package_name": "com.example.latihan"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmWMlcZX9exwXZyUUzzBTZwRenSDBo6m4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:124477567688:android:c9f7ece17d39b600cd6bfd",
+        "android_client_info": {
+          "package_name": "com.example.latihan_kmp.android"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmWMlcZX9exwXZyUUzzBTZwRenSDBo6m4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:124477567688:android:e6067659714e7968cd6bfd",
+        "android_client_info": {
+          "package_name": "com.example.panicbutton"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmWMlcZX9exwXZyUUzzBTZwRenSDBo6m4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:124477567688:android:5b1e2732a2c53a7acd6bfd",
+        "android_client_info": {
+          "package_name": "com.example.templateapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmWMlcZX9exwXZyUUzzBTZwRenSDBo6m4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:124477567688:android:34ba03cb57eaa5d1cd6bfd",
+        "android_client_info": {
+          "package_name": "com.example.testresetpassword"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmWMlcZX9exwXZyUUzzBTZwRenSDBo6m4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
