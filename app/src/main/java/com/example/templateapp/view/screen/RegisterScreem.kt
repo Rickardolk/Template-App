@@ -1,4 +1,4 @@
-package com.example.templateapp.screen
+package com.example.templateapp.view.screen
 
 import android.content.Context
 import android.widget.Toast
@@ -91,7 +91,7 @@ fun RegisterScreen(
                 modifier
                     .fillMaxWidth(),
                 horizontalAlignment = Alignment.CenterHorizontally,
-                verticalArrangement = Arrangement.Center
+                verticalArrangement = Arrangement.spacedBy(4.dp)
             ) {
                 Text(
                     text = "Register" ,
@@ -100,13 +100,11 @@ fun RegisterScreen(
                     color = Color.DarkGray
                 )
 
-                Spacer(modifier.height(16.dp))
                 OutlinedTextField(
                     value = userName,
                     onValueChange = { userName = it},
                     modifier = Modifier
-                        .fillMaxWidth()
-                        .height(50.dp),
+                        .fillMaxWidth(),
                     shape = RoundedCornerShape(20.dp),
                     leadingIcon = {
                         Icon(
@@ -134,13 +132,12 @@ fun RegisterScreen(
                     )
                 )
 
-                Spacer(modifier.height(16.dp))
+
                 OutlinedTextField(
                     value = email,
                     onValueChange = { email = it},
                     modifier = Modifier
-                        .fillMaxWidth()
-                        .height(50.dp),
+                        .fillMaxWidth(),
                     shape = RoundedCornerShape(20.dp),
                     leadingIcon = {
                         Icon(
@@ -168,13 +165,11 @@ fun RegisterScreen(
                     )
                 )
 
-                Spacer(modifier.height(16.dp))
                 OutlinedTextField(
                     value = password,
                     onValueChange = { password = it},
                     modifier = Modifier
-                        .fillMaxWidth()
-                        .height(50.dp),
+                        .fillMaxWidth(),
                     shape = RoundedCornerShape(20.dp),
                     leadingIcon = {
                         Icon(
@@ -202,7 +197,7 @@ fun RegisterScreen(
                     )
                 )
 
-                Spacer(modifier.height(50.dp))
+                Spacer(modifier.height(34.dp))
                 Button(
                     onClick = {
                         Toast.makeText(
@@ -238,7 +233,9 @@ fun RegisterScreen(
                     verticalAlignment = Alignment.CenterVertically
                 ) {
                     TextButton(
-                        onClick = { navController.navigate("login")}
+                        onClick = {
+                            navController.navigate("login")
+                        }
                     ) {
                         Text(
                             text = "Login",

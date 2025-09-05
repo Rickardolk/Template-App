@@ -1,4 +1,4 @@
-package com.example.templateapp.screen.splashscreen
+package com.example.templateapp.view.screen.splashscreen
 
 import android.content.Intent
 import androidx.compose.animation.core.animateFloatAsState
