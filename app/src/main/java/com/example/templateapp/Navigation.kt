@@ -11,9 +11,12 @@ import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import com.example.templateapp.model.BottomNavBarData
 import com.example.templateapp.view.component.BottomNavBar
+import com.example.templateapp.view.screen.CartScreen
 import com.example.templateapp.view.screen.ForgotPasswordScreen
+import com.example.templateapp.view.screen.HistoryScreen
 import com.example.templateapp.view.screen.HomeScreen
 import com.example.templateapp.view.screen.LoginScreen
+import com.example.templateapp.view.screen.ProfileScreen
 import com.example.templateapp.view.screen.RegisterScreen
 
 @Composable
@@ -52,15 +55,27 @@ fun Navigation() {
                 )
             }
 
-            composable("home") {
-                HomeScreen()
-            }
-
             composable("forgot password") {
                 ForgotPasswordScreen(
                     navController = navController,
                     context = context
                 )
+            }
+
+            composable("home") {
+                HomeScreen()
+            }
+
+            composable("cart") {
+                CartScreen()
+            }
+
+            composable("history") {
+                HistoryScreen()
+            }
+
+            composable("profile") {
+                ProfileScreen()
             }
         }
     }
